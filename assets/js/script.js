@@ -31,5 +31,5 @@
     }
   }
 
-var e1 = document.getElementById('sub-button');
-e1.addEventListener('click',validationEvent)
+//var e1 = document.getElementById('sub-button');
+//e1.addEventListener('click',validationEvent)
