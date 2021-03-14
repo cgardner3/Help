@@ -1,10 +1,10 @@
 
 /*JavaScript added on this page */
 
-  /*jQuery(function($) {
+  jQuery(function($) {
     $('html').removeClass('nojs');
     $('html').addClass('hasjs');
-  });*/
+  });
 
   function validationEvent() {
     var a = document.forms["form-one"]["first-name"].value;
