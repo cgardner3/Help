@@ -6,6 +6,16 @@
     $('html').addClass('hasjs');
   });
 
+  function confirmSignUp() {
+  var answer = confirm("Are you ready to join the league?");
+    if (answer == true) {
+      alert("Welcome to the league!");
+    }
+    else{
+      alert("We hope you join a team soon!");
+    }
+}
+
   function validationEvent() {
     var a = document.forms["form-one"]["first-name"].value;
     var b = document.forms["form-one"]["last-name"].value;
@@ -20,17 +30,6 @@
       //alert("Welcome to the league! Details will be emailed soon.");
     }
   }
-
-
-function confirmSignUp() {
-  var answer = confirm("Are you ready to join the league?");
-    if (answer == true) {
-      alert("Welcome to the league!");
-    }
-    else{
-      alert("We hope you join a team soon!");
-    }
-}
 
 var e1 = document.getElementById('sub-button');
 e1.addEventListener('click',validationEvent)
