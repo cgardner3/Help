@@ -21,7 +21,7 @@
   }
 
 
-/*function confirmSignUp() {
+function confirmSignUp() {
   var answer = confirm("Are you ready to join the league?");
     if (answer == true) {
       alert("Welcome to the league!");
@@ -29,4 +29,4 @@
     else{
       alert("We hope you join a team soon!");
     }
-}*/
+}
